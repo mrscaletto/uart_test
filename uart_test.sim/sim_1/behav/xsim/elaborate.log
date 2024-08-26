@@ -1,0 +1,23 @@
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot uart_test_behav xil_defaultlib.uart_test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.2/rdi_builds/continuous/2022_10_14_3671981/data/verilog/src/retarget/IBUFGDS.v" Line 31. Module IBUFGDS(IBUF_LOW_PWR="FALSE") has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.2/rdi_builds/continuous/2022_10_14_3671981/data/verilog/src/unisims/IBUFDS.v" Line 32. Module IBUFDS(IBUF_LOW_PWR="FALSE") has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.2/rdi_builds/continuous/2022_10_14_3671981/data/verilog/src/retarget/IBUFGDS.v" Line 31. Module IBUFGDS(IBUF_LOW_PWR="FALSE") has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.2/rdi_builds/continuous/2022_10_14_3671981/data/verilog/src/unisims/IBUFDS.v" Line 32. Module IBUFDS(IBUF_LOW_PWR="FALSE") has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/dapar/Desktop/SITLINV-FPGA_Board-main/usb_to_uart_test/uart_test/uart_test.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/dapar/Desktop/SITLINV-FPGA_Board-main/usb_to_uart_test/uart_test/uart_test.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.IBUFDS(IBUF_LOW_PWR="FALSE")
+Compiling module unisims_ver.IBUFGDS(IBUF_LOW_PWR="FALSE")
+Compiling module xil_defaultlib.uart_rx(CLK_FRE=200)
+Compiling module xil_defaultlib.uart_tx(CLK_FRE=200)
+Compiling module xil_defaultlib.uart_test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot uart_test_behav

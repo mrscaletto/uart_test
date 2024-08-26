@@ -1,0 +1,8 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+C:/Users/dapar/Desktop/SITLINV-FPGA_Board-main/usb_to_uart_test/uart_test/src/uart_rx.v,1695586240,verilog,,C:/Users/dapar/Desktop/SITLINV-FPGA_Board-main/usb_to_uart_test/uart_test/src/uart_tx.v,,uart_rx,,,,,,,,
+C:/Users/dapar/Desktop/SITLINV-FPGA_Board-main/usb_to_uart_test/uart_test/src/uart_test.v,1695586240,verilog,,,,uart_test,,,,,,,,
+C:/Users/dapar/Desktop/SITLINV-FPGA_Board-main/usb_to_uart_test/uart_test/src/uart_tx.v,1695586240,verilog,,C:/Users/dapar/Desktop/SITLINV-FPGA_Board-main/usb_to_uart_test/uart_test/src/uart_test.v,,uart_tx,,,,,,,,
+C:/Users/dapar/Desktop/SITLINV-FPGA_Board-main/usb_to_uart_test/uart_test/uart_test.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,,,,,,,
